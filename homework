@@ -1,0 +1,12 @@
+public class SayiAl {
+	public static void main(String args[]) {
+		Scanner reader = new Scanner(System.in);
+		int[10] Sayilar;
+		for(i=0;i<10;i++)
+		{
+			System.out.print(i + ". Sayıyı Girin:");
+			Sayilar[i] = reader.nextInt();
+		}
+	}
+
+}
